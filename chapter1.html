@@ -8,8 +8,8 @@
 </div>
 <script>
     // ロードされ、Vueがグローバル変数として定義されているか確認
-    console.assert(typeof Vue !== 'undefined');
-    new Vue({
+    alert(typeof Vue !== 'undefined');
+    var vm =new Vue({
         el: '#app',
         data: {
             message: 'こんにちは!'
